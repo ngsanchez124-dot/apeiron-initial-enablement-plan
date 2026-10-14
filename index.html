@@ -82,9 +82,11 @@ footer{max-width:1120px;margin:0 auto;padding:0 24px 48px;font-size:13px;color:v
   .layout{display:block;padding:0}
   main{padding:16px 0}
   section{border:none;padding:8px 0;margin:0 0 12px;break-inside:auto}
-  .track,.figure,table,.callout{break-inside:avoid}
-  h2{break-after:avoid}
-  a{color:var(--ink)}
+  .figure,.callout,.fact,tr,.checklist li{break-inside:avoid}
+  h2,h3,.tag{break-after:avoid}
+  thead{display:table-header-group}
+  #mapa,#ruta{break-before:page}
+  a{color:#1D4ED8;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
   .tablewrap{overflow:visible;border:none}
   table{min-width:0}
   *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
